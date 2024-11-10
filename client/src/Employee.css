@@ -1,0 +1,88 @@
+.create{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 40px;
+}
+.box{
+    height: fit-content;
+    width: 85%;
+    border: 1px solid rgba(89, 200, 244, 0.714);
+    background-color: ghostwhite;
+}
+.create button{
+    background-color:rgb(30, 191, 255);
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height:30px;
+    margin:0 4px;
+}
+.cntr{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    border-top: 1px solid rgba(89, 200, 244, 0.714);
+    display: flex;
+    display: flex;
+    justify-content: end;
+    
+}
+.searchbar{
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    width: 195px;
+    height: 25px;
+    border: 1px solid rgba(89, 200, 244, 0.714);
+    border-radius: 2px;
+}
+.searchbar input{
+    border: 0;
+    width:148px;
+   
+}
+.searchbar button{
+    border: none;
+    background-color:rgb(30, 191, 255);margin: none;
+    color: white;
+    
+}
+table{
+    width: 100%;
+}
+table th{
+    border-top: 1px solid rgb(30, 191, 255);
+    font-size: medium;
+    color: rgb(30, 191, 255);
+}
+th,td{
+    border: 1px solid rgba(89, 200, 244, 0.714);
+    padding: 8px;
+  }
+
+  
+  td button{
+    height: 30px;
+    width: fit-content;
+    margin: 4px;
+  }
+  #edit{
+background-color: lightseagreen;
+border: none;
+border-radius: 2px;
+    color: white
+  }
+  #del{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    color: white;
+  }
+  
